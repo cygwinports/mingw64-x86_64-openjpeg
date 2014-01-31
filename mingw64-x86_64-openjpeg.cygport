@@ -3,7 +3,7 @@ inherit cross cmake
 
 NAME="mingw64-x86_64-openjpeg"
 VERSION=1.5.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="JPEG 2000 codec for Win64 toolchain"
 DESCRIPTION="The OpenJPEG library is an open-source JPEG 2000 codec written
@@ -22,6 +22,10 @@ PATCH_URI="
 	fedora/openjpeg-1.5-r2031.patch
 	fedora/openjpeg-1.5-r2032.patch
 	fedora/openjpeg-1.5-r2033.patch
+	fedora/openjpeg-1.5.1-CVE-2013-6052.patch
+	fedora/openjpeg-1.5.1-CVE-2013-6053.patch
+	fedora/openjpeg-1.5.1-CVE-2013-1447.patch
+	fedora/openjpeg-1.5.1-CVE-2013-6887.patch
 	1.5.1-install-pkgconfig.patch
 "
 
